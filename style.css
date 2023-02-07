@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: url("https://p4.wallpaperbetter.com/wallpaper/902/711/608/wood-texture-dark-planks-simple-background-wallpaper-preview.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  color: white;
+}
+
+.container{ 
+  position: absolute;
+  top: 30%;
+  left: 31%;
+}
+
+.time, .date, .ti{
+  display: flex;
+  font-family: 'Georama', sans-serif;
+}
+
+.time{
+  font-size: 10em;
+}
+
+.date{
+  font-size: 3.4em;
+}
+
+.time2{
+  font-size: 0.5em;
+  padding-left: 25px;
+}
+
+
+#hour, #colon1, #min, #colon2, #sec, #day, #hyphen, #month, #date, #status{
+  padding: 0px 10px;
+}
